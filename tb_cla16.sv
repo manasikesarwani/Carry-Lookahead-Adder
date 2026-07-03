@@ -1,4 +1,4 @@
-`timescale 1ps/1ps
+`timescale 1ns/1ps
 module tb_cla16;
 logic [15:0] A;
 logic [15:0] B;
