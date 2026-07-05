@@ -4,7 +4,9 @@ module cla16(
     input logic [15:0] B,
     input logic Cin,
     output logic [15:0] Sum,
-    output logic Cout
+    output logic Cout,
+    output logic pout,
+    output logic gout
 );
 logic [3:0] P;
 logic [3:0] G;
@@ -13,8 +15,8 @@ bclg04 bclg16_inst(
         .P(P),
         .G(G),
         .Cin(Cin),
-        .pout(),
-        .gout(),
+        .pout(pout),
+        .gout(gout),
         .Cout(Cout),
         .C(C)
 );
