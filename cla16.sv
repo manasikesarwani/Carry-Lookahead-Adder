@@ -9,7 +9,7 @@ module cla16(
 logic [3:0] P;
 logic [3:0] G;
 logic [3:0] C;
-bclg16 bclg16_inst(
+bclg04 bclg16_inst(
         .P(P),
         .G(G),
         .Cin(Cin),

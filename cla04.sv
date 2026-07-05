@@ -13,7 +13,7 @@ logic [3:0] Gi;
 logic [3:0] C;
 assign Pi = A ^ B;
 assign Gi = A & B;
-bclg16 bclg04_inst(
+bclg04 bclg04_inst(
     .P(Pi),
     .G(Gi),
     .Cin(Cin),

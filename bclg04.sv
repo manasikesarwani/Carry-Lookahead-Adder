@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module bclg16(
+module bclg04(
     input logic [3:0] P,
     input logic [3:0] G,
     input logic Cin,
