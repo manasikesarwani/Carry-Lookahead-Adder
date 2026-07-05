@@ -168,5 +168,3 @@ Compared to a Ripple Carry Adder:
 **Manasi Kesarwani**
 
 MIT Manipal B.Tech Electronics and Communication Engineering
-MIT Manipal# Carry Lookahead Adder
-Hierarchical Carry Lookahead Adder in SystemVerilog.
